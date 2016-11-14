@@ -67,15 +67,15 @@ footer {
 	color:#E6772E;
 }
 .nav {
-  margin-left: 0;
+  width: 100%
+  margin: 0;
   padding-bottom: 0;
 }
 nav li {
-	text-align: center;
-	display:inline-block;
-	padding-bottom: 0;
-	padding: 0.5em;
-	margin-bottom: 0.5em;
+  text-align: center;
+  display:inline-block;
+  width: 32%;
+  padding-bottom: 0;
 }
 /*
 .nav li {

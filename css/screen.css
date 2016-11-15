@@ -37,7 +37,7 @@ h1 {
   font-size: 1.77688em;	/*31,984px*/
   line-height: 1.37569em; /*44px @ 31.984px*/
   color: #E6772E;
-  padding: 1.555em 0em 0em 0.555em;
+  padding: 1.555em 0em 0em 0em;
   text-align: center; 
 }
 h2 {
@@ -162,7 +162,7 @@ nav a:hover {
 @media screen and (min-width: 345px) {
   .content {
     margin: 0% 5% 0% 10%;
-    width: 50%;
+    width: 70%;
 }
 #content-home {
   padding: 2em 1em 2em 1em;
@@ -191,6 +191,17 @@ margin: 3% 0% 0% 0%;
     font-size: 0.666em;
 }
 }
+@media screen and (min-width: 414px) {
+  .content {
+  width: 80%;
+}
+  #marko {
+  padding: 8em 0em 2em 0em;
+  margin: 0em 0em 0em 0em;
+}
+.nav {
+    font-size: 0.888em;
+  } 
 @media screen and (min-width: 768px) {
 
 .content {
@@ -220,10 +231,21 @@ margin: 3% 0% 0% 0%;
     font-size: 0.777em;
   } 
 } 
+@media screen and (min-width: 980px) {
+  .content {
+  width: 80%;
+}
+  #marko {
+  padding: 10em 0em 2em 6em;
+  margin: 0em 0em 0em 6em;
+}
+.nav {
+    font-size: 0.888em;
+  } 
 @media screen and (min-width: 1280px) {
   #marko {
   padding: 10em 0em 2em 10em;
-  margin: 0em 0em 0em 8em;
+  margin: 0em 0em 0em 9em;
 }
 @media screen and (min-width: 1366px) {
   #marko {

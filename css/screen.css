@@ -81,6 +81,10 @@ footer {
   padding: 10em 5em 2em 5em;
   margin: 0 0 0 15em;
 }
+#marko2 {
+  padding: 10em 5em 2em 5em;
+  margin: 0 0 0 15em;
+}
 #content-home {
   padding: 0.666em 1em 5em 1em;
   margin: 5em 1em 4em 1em;
@@ -165,6 +169,10 @@ nav a:hover {
     padding: 6em 0 0 0;
     margin: 0 0 0 2em;
   }
+  #marko2 {
+    padding: 2em 0 0 0;
+    margin: 0 0 0 2em;
+  }
   .h-card {
     margin: 3% 0% 0% 0%;
   }
@@ -184,13 +192,17 @@ nav a:hover {
     padding: 8em 0 2em 0;
     margin: 0 0 0 0;
   }
+  #marko2 {
+    padding: 2em 0 2em 0;
+    margin: 0 0 0 0;
+  }
   .nav {
     font-size: 0.888em;
   }
 }
 @media screen and (min-width: 48em) {
   .content {
-    width: 70%;
+    width: 80%;
   }
   #content-home {
     padding: 2em 1em 2em 1.444em;
@@ -202,6 +214,10 @@ nav a:hover {
   }
   #marko {
     padding: 10em 0 2em 5em;
+    margin: 0 0 0 2em;
+  }
+  #marko2 {
+    padding: 2em 2em 2em 5em;
     margin: 0 0 0 2em;
   }
   .h-card {
@@ -224,6 +240,10 @@ nav a:hover {
     padding: 10em 0 2em 6em;
     margin: 0 0 0 6em;
   }
+  #marko2 {
+    padding: 2em 0 2em 6em;
+    margin: 0 0 0 6em;
+  }
   .nav {
     font-size: 0.888em;
   }
@@ -233,10 +253,18 @@ nav a:hover {
     padding: 10em 0 2em 10em;
     margin: 0 0 0 9em;
   }
+  #marko2 {
+    padding: 2em 0 2em 10em;
+    margin: 0 0 0 9em;
+  }
 }
 @media screen and (min-width: 85.375em) {
   #marko {
     padding: 10em 0 2em 12em;
+    margin: 0 0 0 8em;
+  }
+  #marko2 {
+    padding: 2em 0 2em 12em;
     margin: 0 0 0 8em;
   }
 }

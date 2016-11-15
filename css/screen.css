@@ -14,7 +14,6 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 html {
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-  padding: 1.222em 0.917em; 
   padding-top: 0;
   background-color: #12234F;
   color: #FEFEFE;
@@ -22,64 +21,125 @@ html {
 }
 body {
   font-size: 1.125em;	/* ~ 18px */
-  line-height: 1.222em;	/* ~ 22px - 1 gridline */
+  line-height: 1.222em; /* ~ 22px - 1 gridline */
 }
 img, video, audio {
         display: block;
         max-width: 100%;
 }
+.contact-info {
+  padding: 0.555em 0em 1.11em 1em; 
+}
+.content-home {
+  padding: 0.555em 0em 1.11em 1em; 
+}
 h1 {
-	font-size: 1.77688em;	/*31,984px*/
-	line-height: 1.37569em; /*44px @ 31.984px*/
-	color: #E6772E;
+  font-size: 1.77688em;	/*31,984px*/
+  line-height: 1.37569em; /*44px @ 31.984px*/
+  color: #E6772E;
+  padding: 1.555em 0em 0em 0.555em;
+  text-align: center; 
 }
 h2 {
-	font-size: 1.333em; /*23.994px*/
-	line-height: 1.8338em; /*44px @ 23.994px*/
-	color:#E6772E;
+  font-size: 1.333em; /*23.994px*/
+  line-height: 1.8338em; /*44px @ 23.994px*/
+  color:#E6772E;
 }
 h4 {
-	font-size: 1.125em;	/* ~ 18px */
+  font-size: 1.125em;	/* ~ 18px */
   line-height: 2.444em;
- 	color:#E6772E; 
+  color:#E6772E; 
 }
 p,
 ul {
-	padding-bottom: 1.222em;
+  padding-bottom: 1.222em;
 }
 li {
-	padding-bottom: 0.6111em; /*half gridline*/
+  padding-bottom: 0.6111em; /*half gridline*/
 }
 li:last-child {
-	padding-bottom: 0;
+  padding-bottom: 0;
 }
 footer {
-	font-size: 0.722em; /*13.503px*/
-	text-align: center;
-	padding-top: 4em;
+  font-size: 0.722em; /*13.503px*/
+  text-align: center;
+  padding-top: 2em;
+}
+#source {
+  padding: 1em 0em 1em 0em;
+}
+#audio1 {
+  padding: 0em 0em 0.666em 0em;
+}
+#audio2 {
+  padding: 0.666em 0em 0em 0em;
+}
+#intro {
+  margin: 1em 0em 1em 0em;
+}
+#marko {
+  padding: 10em 5em 2em 5em;
+  margin: 0em 0em 0em 15em;
+}
+#content-home {
+  padding: 0.666em 1em 5em 1em;
+  margin: 5em 1em 4em 1em;
+  background-color: #355D98;
+}
+#counter-strike{
+  padding: 1em 1em 1em 0em;
+}
+#trap-kingpin{
+  padding: 1em 1em 1em 0em;
+}
+
+.content {
+  margin: 0% 0% 0% 0%;
+  width: 100%;
 }
 
 .content ul {
-	list-style-type: disc;
-	padding-left: 0.917em;
+  list-style-type: disc;
+  padding-left: 0.917em;
 }
 .content a {
-	color:#E6772E;
+  color:#E6772E;
 }
-.nav {
-  width: 100%
-  margin: 0;
-  padding-bottom: 0;
+#page{
+    width:100%;
+    height: 20px;
+    margin: 0;
+  background-color: #050C26;
+  position: absolute;
+  padding-bottom: 1em;
 }
-nav li {
+nav {
+position: absolute;
+  width: 100%;
+  padding: 0;
+  margin-top: 0.666em;
+  top: 0;
+  left: 0;
+}
+.nav li {
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: 0.125em;
   text-align: center;
-  display:inline-block;
-  width: 32%;
-  padding-bottom: 0;
+  float: left;
+  font-family: 'Indie Flower', cursive;
+}
+.nav li a {
+  color:#E6772E;
+  text-decoration: none;
+  display: block;
+}
+nav a:hover {
+  text-decoration: underline;
 }
 /*
 .nav li {
-  float: left;
+  float: right;
   width: 30%;
   list-style-type: none;
   padding-bottom: 0;
@@ -94,22 +154,79 @@ nav li {
 }
 */
 .hst {
-	background-color: #355D98;
-	padding: 0 0.6111em 0 0.6111em;
-	margin: 0;
-
+  background-color: #355D98;
+  padding: 0 0.6111em 0 0.6111em;
+  margin: 0;
 }
 
 @media screen and (min-width: 345px) {
-	.content {
-		margin: 0% 5% 0% 10%;
-	.nav a {
-    padding: 0.6111em;
-  	}
-	}
+  .content {
+    margin: 0% 5% 0% 10%;
+    width: 50%;
 }
-@media screen and (min-width: 745px) {
-	.content {
-		padding-top: 5%;
-	}
+#content-home {
+  padding: 2em 1em 2em 1em;
+  margin: 5em 1em 3em 1em;
+  background-color: #355D98;
+}
+#p2 {
+  text-align: center;
+  color: #FEFEFE;
+}
+#page {
+  font-size: 1em;
+}
+#marko {
+  padding: 6em 0em 0em 0em;
+  margin: 0em 0em 0em 2em;
+}
+.h-card { 
+margin: 3% 0% 0% 0%;
+}
+  .nav li {
+  padding: 0em 0.3em 0em 0em;
+ width: 32%;
+}
+  .nav {
+    font-size: 0.666em;
+}
+}
+@media screen and (min-width: 768px) {
+
+.content {
+  width: 70%;
+}
+#content-home {
+  padding: 2em 1em 2em 1.444em;
+  margin: 5em 1em 9em 1em;
+  background-color: #355D98;
+}
+#page {
+  font-size: 1.222em;
+}
+#marko {
+  padding: 10em 0em 2em 5em;
+  margin: 0em 0em 0em 2em;
+}
+.h-card { 
+margin: 3% 0% 0% 0%;
+}
+  .nav li {
+  padding: 0em 0.555em 0em 0em;
+  padding-bottom: 0.1em;
+ width: 32%;
+}
+  .nav {
+    font-size: 0.777em;
+  } 
 } 
+@media screen and (min-width: 1280px) {
+  #marko {
+  padding: 10em 0em 2em 10em;
+  margin: 0em 0em 0em 8em;
+}
+@media screen and (min-width: 1366px) {
+  #marko {
+  padding: 10em 0em 2em 12em;
+  margin: 0em 0em 0em 8em;
+}
